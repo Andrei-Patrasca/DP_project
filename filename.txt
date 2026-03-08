@@ -1,0 +1,62 @@
+Log: Deposited 700.0 into EUR128Log: Deposited 200.9 into EUR124Log: Deposited 400.0 into RON1234Log: Deposited 100.0 into RON126Log: Deposited 700.0 into EUR128Log: Deposited 200.9 into EUR124Log: Deposited 400.0 into RON1234Log: Deposited 100.0 into RON126Log: Deposited 700.0 into EUR128Log: Deposited 200.9 into EUR124
+Log: Deposited 400.0 into RON1234
+Log: Deposited 100.0 into RON126
+Log: Deposited 700.0 into EUR128
+Log: Bank initialized
+Log: Deposited 200.9 into EUR124
+Log: Deposited 200.9 into EUR124
+Log: Account added
+Log: Client created
+Log: Client added
+Log: Deposited 400.0 into RON1234
+Log: Deposited 400.0 into RON1234
+Log: Account added
+Log: Deposited 100.0 into RON126
+Log: Deposited 100.0 into RON126
+Log: Account added
+Log: Client created
+Log: Client added
+Log: Bank toString
+Log: toString Client
+Log: A to string studd
+Log: A to string studd
+Log: toString Client
+Log: A to string studd
+Log: Bank initialized
+Log: Deposited 700.0 into EUR128
+Log: Deposited 700.0 into EUR128
+Log: Account added
+Log: Client created
+Log: Client added
+Log: Bank toString
+Log: toString Client
+Log: A to string studd
+Log: client goatted
+Log: getName Client
+Log: getName Client
+Log: getAccount from Client
+Log: Account code RON126
+Log: Deposited 400.0 into RON126
+Log: toString Client
+Log: A to string studd
+Log: getAccount from Client
+Log: Account code RON126
+Log: Retrieved 67.0 into RON126
+Log: toString Client
+Log: A to string studd
+Log: getAccount from Client
+Log: Account code RON126
+Log: client goatted
+Log: getName Client
+Log: getAccount from Client
+Log: Account code EUR124
+Log: Account code RON1234
+Log: Retrieved 40.0 into RON1234
+Log: Deposited 40.0 into RON126
+Log: Transfer 40.0 to RON1234
+Log: Bank toString
+Log: toString Client
+Log: A to string studd
+Log: A to string studd
+Log: toString Client
+Log: A to string studd
