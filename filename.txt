@@ -60,3 +60,89 @@ Log: A to string studd
 Log: A to string studd
 Log: toString Client
 Log: A to string studd
+Log: Deposited 100.0 into RO123
+Log: Deposited 100.0 into RO123
+Log: Deposited 100.0 into EU999
+Log: Deposited 100.0 into EU999
+Log: Deposited 200.0 into SRC
+Log: Deposited 200.0 into SRC
+Log: Deposited 100.0 into DEST
+Log: Deposited 100.0 into DEST
+Log: Retrieved 50.0 into SRC
+Log: Deposited 50.0 into DEST
+Log: Transfer 50.0 to SRC
+Log: Bank initialized
+Log: Deposited 500.0 into ACC1
+Log: Deposited 500.0 into ACC1
+Log: Account added
+Log: Client created
+Log: Client added
+Log: client goatted
+Log: getName Client
+Log: getName Client
+Log: Deposited 200.0 into RO122
+Log: Deposited 200.0 into RO122
+Log: Deposited 300.0 into EU555
+Log: Deposited 300.0 into EU555
+Log: Retrieved 35.0 into RO122
+Log: Deposited 200.0 into RO122
+Log: Deposited 200.0 into RO122
+Log: Deposited 300.0 into EU555
+Log: Deposited 300.0 into EU555
+Log: Deposited 55.0 into RO122
+Log: Deposited 200.0 into RO122
+Log: Deposited 200.0 into RO122
+Log: Deposited 300.0 into EU555
+Log: Deposited 300.0 into EU555
+Log: Retrieved 35.0 into RO122
+Log: Deposited 200.0 into RO122
+Log: Deposited 200.0 into RO122
+Log: Deposited 300.0 into EU555
+Log: Deposited 300.0 into EU555
+Log: Retrieved 30.0 into RO122
+Log: Deposited 200.0 into RO122
+Log: Deposited 200.0 into RO122
+Log: Deposited 300.0 into EU555
+Log: Deposited 300.0 into EU555
+Log: Interest 200.0
+Log: Deposited 10.0 into A1
+Log: Deposited 10.0 into A1
+Log: Account added
+Log: Client created
+Log: Deposited 10.0 into A2
+Log: Deposited 10.0 into A2
+Log: Account added
+Log: Deposited 10.0 into A3
+Log: Deposited 10.0 into A3
+Log: Account added
+Log: Deposited 10.0 into A4
+Log: Deposited 10.0 into A4
+Log: Account added
+Log: Deposited 10.0 into A5
+Log: Deposited 10.0 into A5
+Log: Account added
+Log: Account added
+Log: getAccount from Client
+Log: Account code A1
+Log: Account code A2
+Log: Account code A3
+Log: Account code A4
+Log: Account code A5
+Log: Deposited 100.0 into IBAN1
+Log: Deposited 100.0 into IBAN1
+Log: Account added
+Log: Client created
+Log: getAccount from Client
+Log: Account code IBAN1
+Log: Deposited 50.0 into IBAN2
+Log: Deposited 50.0 into IBAN2
+Log: Account added
+Log: getAccount from Client
+Log: Account code IBAN1
+Log: Account code IBAN2
+Log: getAccount from Client
+Log: Account code IBAN1
+Log: Account code IBAN2
+Log: Account code IBAN2
+Log: Bank initialized
+Log: client goatted

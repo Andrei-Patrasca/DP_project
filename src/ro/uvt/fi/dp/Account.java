@@ -11,7 +11,7 @@ public class Account implements Operations, Transfer {
 	double amount = 0;
 	TYPE type = TYPE.RON;
 
-	protected Account(String accountCode, double amount, TYPE type) {
+	public Account(String accountCode, double amount, TYPE type) {
 		this.accountCode = accountCode;
 		this.type = type;
 		depose(amount);
