@@ -1,38 +1,43 @@
 package ro.uvt.fi.dp;
-import java.io.FileWriter;   // Import the FileWriter class
-import java.io.IOException;  // Import the IOException class
 
-public class Logger {
-    // Private static instance of the logger
-    private static Logger instance;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Serializable;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
-    // Private constructor to prevent external instantiation
-    private Logger() {
-        // Initialization code, if any
-    }
+/**
+ * Singleton pattern: only one Logger instance exists in the application.
+ * Writes log entries both to stdout and to a persistent log file.
+ */
+public class Logger implements Serializable {
 
-    // Static method to provide access to the instance
+    private static final long serialVersionUID = 1L;
+    private static volatile Logger instance;
+    private static final String LOG_FILE = "bank_app.log";
+    private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
+    private Logger() {}
+
     public static Logger getInstance() {
         if (instance == null) {
-            instance = new Logger();
+            synchronized (Logger.class) {
+                if (instance == null) {
+                    instance = new Logger();
+                }
+            }
         }
-
         return instance;
     }
 
-    // Logging method
     public void log(String message) {
-        System.out.println("Log: " + message);
-
-        try {
-            FileWriter myWriter = new FileWriter("filename.txt", true);
-            myWriter.write("Log: " + message + "\n");
-            myWriter.close();
-            System.out.println("Successfully wrote to the file.");
+        String timestamp = LocalDateTime.now().format(formatter);
+        String logEntry = String.format("[%s] %s", timestamp, message);
+        System.out.println(logEntry);
+        try (FileWriter writer = new FileWriter(LOG_FILE, true)) {
+            writer.write(logEntry + System.lineSeparator());
         } catch (IOException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
+            System.err.println("Logger failed to write to file: " + e.getMessage());
         }
-
     }
 }

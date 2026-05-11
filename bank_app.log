@@ -1,0 +1,90 @@
+[2026-05-11 12:28:46] JUnit test log entry
+[2026-05-11 12:29:06] JUnit test log entry
+[2026-05-11 12:30:14] AccountFactory: creating RON account [CMD-ACC]
+[2026-05-11 12:30:14] Account created: CMD-ACC [RON] amount=500.0
+[2026-05-11 12:30:14] Retrieve: -100.0 on CMD-ACC -> balance=400.0
+[2026-05-11 12:30:14] Command executed: WITHDRAWAL: -100.0 from CMD-ACC
+[2026-05-11 12:30:14] Deposit: +100.0 on CMD-ACC -> balance=500.0
+[2026-05-11 12:30:14] UNDO: WITHDRAWAL: -100.0 from CMD-ACC
+[2026-05-11 12:30:14] AccountFactory: creating RON account [CMD-ACC]
+[2026-05-11 12:30:14] Account created: CMD-ACC [RON] amount=500.0
+[2026-05-11 12:30:14] AccountFactory: creating RON account [CMD-ACC]
+[2026-05-11 12:30:14] Account created: CMD-ACC [RON] amount=500.0
+[2026-05-11 12:30:14] Deposit: +200.0 on CMD-ACC -> balance=700.0
+[2026-05-11 12:30:14] Command executed: DEPOSIT: +200.0 to CMD-ACC
+[2026-05-11 12:30:14] Retrieve: -100.0 on CMD-ACC -> balance=600.0
+[2026-05-11 12:30:14] Command executed: WITHDRAWAL: -100.0 from CMD-ACC
+[2026-05-11 12:30:14] Deposit: +100.0 on CMD-ACC -> balance=700.0
+[2026-05-11 12:30:14] UNDO: WITHDRAWAL: -100.0 from CMD-ACC
+[2026-05-11 12:30:14] AccountFactory: creating RON account [CMD-ACC]
+[2026-05-11 12:30:14] Account created: CMD-ACC [RON] amount=500.0
+[2026-05-11 12:30:14] Deposit: +200.0 on CMD-ACC -> balance=700.0
+[2026-05-11 12:30:14] Command executed: DEPOSIT: +200.0 to CMD-ACC
+[2026-05-11 12:30:14] AccountFactory: creating RON account [CMD-ACC]
+[2026-05-11 12:30:14] Account created: CMD-ACC [RON] amount=500.0
+[2026-05-11 12:30:14] Deposit: +50.0 on CMD-ACC -> balance=550.0
+[2026-05-11 12:30:14] Command executed: DEPOSIT: +50.0 to CMD-ACC
+[2026-05-11 12:30:14] Retrieve: -20.0 on CMD-ACC -> balance=530.0
+[2026-05-11 12:30:14] Command executed: WITHDRAWAL: -20.0 from CMD-ACC
+[2026-05-11 12:30:14] AccountFactory: creating RON account [CMD-ACC]
+[2026-05-11 12:30:14] Account created: CMD-ACC [RON] amount=500.0
+[2026-05-11 12:30:14] Retrieve: -100.0 on CMD-ACC -> balance=400.0
+[2026-05-11 12:30:14] Command executed: WITHDRAWAL: -100.0 from CMD-ACC
+[2026-05-11 12:30:14] AccountFactory: creating RON account [CMD-ACC]
+[2026-05-11 12:30:14] Account created: CMD-ACC [RON] amount=500.0
+[2026-05-11 12:30:14] Deposit: +200.0 on CMD-ACC -> balance=700.0
+[2026-05-11 12:30:14] Command executed: DEPOSIT: +200.0 to CMD-ACC
+[2026-05-11 12:30:14] Retrieve: -200.0 on CMD-ACC -> balance=500.0
+[2026-05-11 12:30:14] UNDO: DEPOSIT: +200.0 to CMD-ACC
+[2026-05-11 12:30:55] ERROR loading bank, starting fresh: ro.uvt.fi.dp.Bank; local class incompatible: stream classdesc serialVersionUID = -5090059859952003349, local class serialVersionUID = 1
+[2026-05-11 12:30:55] Bank created: UVT_BANK_001
+[2026-05-11 12:30:55] First run — seeding test data.
+[2026-05-11 12:30:55] AccountFactory: creating RON account [RO-RON-001]
+[2026-05-11 12:30:55] Account created: RO-RON-001 [RON] amount=1000.0
+[2026-05-11 12:30:55] Account RO-RON-001 added for client Ion Popescu
+[2026-05-11 12:30:55] Client created: Ion Popescu
+[2026-05-11 12:30:55] AccountFactory: creating EUR account [RO-EUR-001]
+[2026-05-11 12:30:55] Account created: RO-EUR-001 [EUR] amount=500.0
+[2026-05-11 12:30:55] Account RO-EUR-001 added for client Ion Popescu
+[2026-05-11 12:30:55] Client added to UVT_BANK_001: Ion Popescu
+[2026-05-11 12:30:55] AccountFactory: creating RON account [RO-RON-002]
+[2026-05-11 12:30:55] Account created: RO-RON-002 [RON] amount=300.0
+[2026-05-11 12:30:55] Account RO-RON-002 added for client Maria Ionescu
+[2026-05-11 12:30:55] Client created: Maria Ionescu
+[2026-05-11 12:30:55] Client added to UVT_BANK_001: Maria Ionescu
+[2026-05-11 12:30:55] Bank state saved to bank_data.ser
+[2026-05-11 12:32:44] Retrieve: -60.0 on RO-RON-001 -> balance=940.0
+[2026-05-11 12:32:44] Command executed: WITHDRAWAL: -60.0 from RO-RON-001
+[2026-05-11 12:32:44] Bank state saved to bank_data.ser
+[2026-05-11 12:33:03] Deposit: +50.0 on RO-EUR-001 -> balance=550.0
+[2026-05-11 12:33:03] Command executed: DEPOSIT: +50.0 to RO-EUR-001
+[2026-05-11 12:33:03] Bank state saved to bank_data.ser
+[2026-05-11 12:33:17] Retrieve: -50.0 on RO-EUR-001 -> balance=500.0
+[2026-05-11 12:33:17] UNDO: DEPOSIT: +50.0 to RO-EUR-001
+[2026-05-11 12:33:17] Bank state saved to bank_data.ser
+[2026-05-11 12:33:27] Deposit: +60.0 on RO-RON-001 -> balance=1000.0
+[2026-05-11 12:33:27] UNDO: WITHDRAWAL: -60.0 from RO-RON-001
+[2026-05-11 12:33:27] Bank state saved to bank_data.ser
+[2026-05-11 12:33:32] Bank state saved to bank_data.ser
+[2026-05-11 12:33:32] Bank state saved to bank_data.ser
+[2026-05-11 12:33:33] Bank state saved to bank_data.ser
+[2026-05-11 12:33:33] Bank state saved to bank_data.ser
+[2026-05-11 12:33:33] Bank state saved to bank_data.ser
+[2026-05-11 12:33:33] Bank state saved to bank_data.ser
+[2026-05-11 12:33:33] Bank state saved to bank_data.ser
+[2026-05-11 12:33:33] Bank state saved to bank_data.ser
+[2026-05-11 12:33:33] Bank state saved to bank_data.ser
+[2026-05-11 12:34:51] Deposit: +500.0 on RO-RON-002 -> balance=800.0
+[2026-05-11 12:34:51] Command executed: DEPOSIT: +500.0 to RO-RON-002
+[2026-05-11 12:34:51] Bank state saved to bank_data.ser
+[2026-05-11 12:35:02] Bank state loaded from bank_data.ser
+[2026-05-11 12:35:47] AccountFactory: creating EUR account [EUR-V2]
+[2026-05-11 12:35:47] Account created: EUR-V2 [EUR] amount=1000.0
+[2026-05-11 12:35:47] AccountFactory: creating RON account [RON-V2]
+[2026-05-11 12:35:47] Account created: RON-V2 [RON] amount=5000.0
+[2026-05-11 12:35:47] AccountFactory: creating RON account [RON-V3]
+[2026-05-11 12:35:47] Account created: RON-V3 [RON] amount=1000.0
+[2026-05-11 12:35:47] AccountFactory: creating EUR account [EUR-V]
+[2026-05-11 12:35:47] Account created: EUR-V [EUR] amount=1000.0
+[2026-05-11 12:35:47] AccountFactory: creating RON account [RON-V]
+[2026-05-11 12:35:47] Account created: RON-V [RON] amount=5000.0
